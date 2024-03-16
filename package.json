@@ -1,10 +1,10 @@
 {
-  "name": "prompts",
+  "name": "@mrozio/prompts",
   "version": "2.4.2",
   "description": "Lightweight, beautiful and user-friendly prompts",
   "type": "commonjs",
   "license": "MIT",
-  "repository": "terkelg/prompts",
+  "repository": "mrozio13pl/prompts",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "index.d.ts",
