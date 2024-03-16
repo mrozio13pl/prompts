@@ -401,15 +401,15 @@ The function signature is `(val, values)`, where `val` is the value from the cur
 Type: `Function`
 
 Callback for when the prompt is rendered.
-The function receives [kleur](https://github.com/lukeed/kleur) as its first argument and `this` refers to the current prompt.
+The function receives [picocolors](https://github.com/alexeyraspopov/picocolors) as its first argument and `this` refers to the current prompt.
 
 **Example:**
 ```js
 {
   type: 'number',
   message: 'This message will be overridden',
-  onRender(kleur) {
-    this.msg = kleur.cyan('Enter a number');
+  onRender(color) {
+    this.msg = color.cyan('Enter a number');
   }
 }
 ```

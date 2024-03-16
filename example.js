@@ -1,6 +1,6 @@
 'use strict';
 
-const { prompt } = require('./');
+const { prompt } = require('./lib');
 
 let interval;
 

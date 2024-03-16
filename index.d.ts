@@ -12,7 +12,7 @@
 export = prompts;
 
 import { Readable, Writable } from 'stream';
-import { Kleur } from 'kleur';
+import picocolors from 'picocolors';
 
 declare function prompts<T extends string = string>(
 	questions: prompts.PromptObject<T> | Array<prompts.PromptObject<T>>,
@@ -82,7 +82,7 @@ declare namespace prompts {
 		format?: PrevCaller<T, void> | undefined;
 		validate?: PrevCaller<T, boolean | string | Promise<boolean | string>> | undefined;
 		onState?: PrevCaller<T, void> | undefined;
-		onRender?: ((kleur: Kleur) => void) | undefined;
+		onRender?: ((color: typeof picocolors) => void) | undefined;
 		min?: number | PrevCaller<T, number | Falsy> | undefined;
 		max?: number | PrevCaller<T, number | Falsy> | undefined;
 		float?: boolean | PrevCaller<T, boolean | Falsy> | undefined;
