@@ -1,6 +1,6 @@
 {
   "name": "@mrozio/prompts",
-  "version": "2.4.2",
+  "version": "3.0.0",
   "description": "Lightweight, beautiful and user-friendly prompts",
   "type": "commonjs",
   "license": "MIT",
