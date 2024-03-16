@@ -7,7 +7,7 @@
   "repository": "mrozio13pl/prompts",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
-  "types": "index.d.ts",
+  "types": "dist/index.d.ts",
   "author": {
     "name": "Terkel Gjervig",
     "email": "terkel@terkel.com",
